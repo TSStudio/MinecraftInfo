@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+@font-face {
+    font-family: "iconfont"; /* Project id 3835512 */
+    src: url("//at.alicdn.com/t/c/font_3835512_qdfpidqkhk.woff2?t=1671666892633")
+            format("woff2"),
+        url("//at.alicdn.com/t/c/font_3835512_qdfpidqkhk.woff?t=1671666892633")
+            format("woff"),
+        url("//at.alicdn.com/t/c/font_3835512_qdfpidqkhk.ttf?t=1671666892633")
+            format("truetype");
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background: #fff;
+    color: #000;
+}
+#main {
+    /* at the right of the sidebar */
+    margin-left: 200px;
+    padding: 10px;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+#m-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+#skinView {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+.cardHeader {
+    color: #fff;
+    font-size: 20px;
+    vertical-align: baseline;
+    line-height: 60px;
+}
+.cardMain {
+    color: #111;
+}
+.pagination {
+    margin-top: 10px;
+    justify-content: center;
+}
+.step-main-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.username-input {
+    width: 300px;
+    margin: 20px auto;
+}
+.codeshow {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    background-color: #79bbff;
+    box-shadow: var(--el-box-shadow);
+    line-height: 100px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 32px;
+}
